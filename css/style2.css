@@ -1,0 +1,202 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.container .header h1 {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Arial;
+}
+
+.container .header img {
+    height: 170px; /* Ajusta la altura de la imagen a 170px. */
+    width: 170px; /* Ajusta el ancho de la imagen a 170px. Mantiene la proporción si la imagen original es cuadrada. */
+}
+
+.container .header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+.container .header ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.container .header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.container .header ul li:hover {
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.container .header a:hover {
+    color: red;
+}
+
+.info {
+    position: relative;
+    padding-top: 100px; /* Añade un poco de espacio arriba para evitar solapamiento */
+}
+
+.info .due {
+    width: 350px;
+    height: 320px;
+    border-radius: 100px;
+    position: absolute;
+    top: 50px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 50px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.info .in1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 30px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 450px;
+}
+
+.info .p {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 85px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 430px;
+}
+
+.info .in2 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 130px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 450px;
+}
+
+.info .his {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 170px; /* Ajusta este valor según sea necesario */
+    width: 65%;
+    left: 450px;
+}
+
+.info .in3 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 400px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 50px;
+}
+
+.info .pro {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 440px; /* Ajusta este valor según sea necesario */
+    width: 40%;
+    left: 40px;
+}
+
+.video {
+    position: relative;
+}
+
+.video .in4 {
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 300px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 750px;
+}
+
+.video video {
+    position: absolute;
+    top: 360px; /* Ajusta este valor según sea necesario */
+    left: 750px;
+    border-radius: 3%;
+}
+
+.mapa .in5{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 635px; /* Ajusta este valor según sea necesario */
+    width: 110%;
+    left: 50px;
+}
+
+.mapa iframe{
+    width: 650px; /* Ajusta el ancho del mapa según sea necesario */
+    height: 500px;
+    border-radius: 3%;
+    position: absolute;
+    top: 700px;
+    left: 50px;
+}
+
+.footer2 footer {
+    position: absolute;
+    text-align: left;
+    padding: 5px 5px;
+    background-color: burlywood;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribuir espacio entre texto e iconos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    width: 1495px;
+    height: 60px;
+    top: 1420px;
+}
+  
+.footer2 footer .social-icons2 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+  
+.footer2 footer .social-icons2 li {
+    margin: 0 10px;
+}
+  
+.footer2 footer .social-icons2 a {
+    text-decoration: none;
+}
+  
+.footer2 footer .footer-text2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    color: #333; /* Cambia el color del texto según tus necesidades */
+}
+
+.nino img{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    top: 1050px;
+    left: 1000px;
+}

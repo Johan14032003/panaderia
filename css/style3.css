@@ -1,0 +1,195 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.container .header h1 {
+    flex: 1;
+    text-align: center;
+    color: black;
+    font-family: Arial;
+}
+
+.container .header img {
+    height: 170px; /* Ajusta la altura de la imagen a 170px. */
+    width: 170px; /* Ajusta el ancho de la imagen a 170px. Mantiene la proporción si la imagen original es cuadrada. */
+}
+
+.container .header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+
+.container .header ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.container .header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+}
+
+.container .header ul li:hover {
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.container .header a:hover {
+    color: red;
+}
+
+.footer3 footer {
+    position: absolute;
+    text-align: left;
+    padding: 5px 5px;
+    background-color: burlywood;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribuir espacio entre texto e iconos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    width: 1495px;
+    height: 60px;
+    top: 1300px;
+  }
+  
+  .footer3 footer .social-icons3 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .footer3 footer .social-icons3 li {
+    margin: 0 10px;
+  }
+  
+  .footer3 footer .social-icons3 a {
+    text-decoration: none;
+  }
+  
+  .footer3 footer .footer-text3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    color: #333; /* Cambia el color del texto según tus necesidades */
+  }
+
+.car .carro{
+    width: 350px;
+    height: 320px;
+    border-radius: 100px;
+    position: absolute;
+    top: 220px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 50px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.car .titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 220px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 490px;
+}
+
+.car h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 280px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 490px;
+}
+
+.car p{
+    margin: 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 330px; /* Ajusta este valor según sea necesario */
+    width: 65%;
+    left: 490px;
+}
+
+.cos h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 380px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 490px;
+}
+
+.cos p{
+    margin: 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 430px; /* Ajusta este valor según sea necesario */
+    width: 65%;
+    left: 490px;
+}
+
+.cover .mapa{
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    top: 590px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 80px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.cover h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 510px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 280px;
+}
+
+.entre h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    top: 510px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 790px;
+}
+
+.entre .t{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 570px; /* Ajusta este valor según sea necesario */
+    width: 50%;
+    left: 760px;
+}
+
+.nino img{
+    position: absolute;
+    height: 300px;
+    width: 250px;
+    top: 950px;
+    left: 1000px;
+}
+
+
+
+

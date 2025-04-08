@@ -1,0 +1,218 @@
+.container {
+  width: 100%; /* Define el ancho del contenedor principal. "100%" se refiere a ocupar todo el ancho del elemento contenedor padre */
+  margin: 0 auto; /* Centra el contenedor horizontalmente. */
+}
+ 
+.container .header {
+  display: flex; /* Usa flexbox para organizar los elementos del contenedor. */
+  align-items: center; /* Alinea los elementos verticalmente en el centro. */
+  justify-content: space-between; /* Espacia los elementos del contenedor, colocando uno a la izquierda y el otro a la derecha. */
+  background-color: burlywood; /* Establece el color de fondo del encabezado. */
+  padding: 5px; /* Añade un espacio interno de 5px alrededor del contenido del encabezado. */
+  font-size: 30px; /* Define el tamaño de la fuente del texto dentro del encabezado. */
+  border-radius: 20px;
+}
+  
+.container .header h1 {
+  flex: 1; /* Permite que el elemento h1 tome el espacio disponible. */
+  text-align: center; /* Centra el texto horizontalmente dentro del elemento h1. */
+  color: black; /* Establece el color del texto a negro. */
+  font-family: Arial;
+}
+  
+.container .header img {
+  height: 170px; /* Ajusta la altura de la imagen a 170px. */
+  width: 170px; /* Ajusta el ancho de la imagen a 170px. Mantiene la proporción si la imagen original es cuadrada. */
+}
+
+.container .header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+}
+
+.container .header ul li {
+  display: inline-block;
+  padding: 0px 10px;
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.container .header a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial;
+}
+
+.container .header ul li:hover{
+  transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.container .header a:hover {
+  color: red;
+}
+
+.content {
+  display: flex; /* Añadir display: flex para activar el modelo flexbox */
+  flex-direction: column; /* Alinea los elementos en columna */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  width: 100vw; /* Ocupa todo el ancho del viewport */
+  height: 70vh; /* Ocupa toda la altura del viewport */
+}
+.bienvenida {
+  padding-left: 110px; /* Ajusta este valor según la cantidad de desplazamiento que desees */
+  font-family: Arial;
+}
+
+.parbien {
+  padding-left: 110px; /* Ajusta este valor según la cantidad de desplazamiento que desees */
+  margin: 0;
+  font-family: Arial;
+}
+
+.content .img {
+  width: 85%; /* Asegura que la imagen ocupe el 85% del contenedor */
+  height: 80%; /* Mantiene la proporción de la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra completamente el contenedor */
+  margin: 0; /* Elimina cualquier margen que pueda afectar la alineación */
+  padding: 0; /* Elimina cualquier padding que pueda afectar la alineación */
+  border-radius: 30px;
+}
+
+.produ {
+  position: relative; /* Permite el uso de position:absolute en los elementos hijos */
+}
+
+.produ .pan {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  position: absolute;
+  top: -400px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 300px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.produ .pan:hover{
+  transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.produ .pastel {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  position: absolute;
+  top: -400px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 650px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.produ .pastel:hover{
+  transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.produ .galleta {
+  width: 180px;
+  height: 180px;
+  border-radius: 50px;
+  position: absolute;
+  top: -400px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 1000px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.produ .galleta:hover{
+  transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.produ .p1{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -270px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 325px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.produ .p2{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -270px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 650px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.produ .p3{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: -270px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 1005px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.footer footer {
+  text-align: left;
+  padding: 5px 5px;
+  background-color: burlywood;
+  margin-top: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between; /* Distribuir espacio entre texto e iconos */
+  align-items: center; /* Alinear verticalmente los elementos */
+}
+
+.footer footer .social-icons {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+}
+
+.footer footer .social-icons li {
+  margin: 0 10px;
+}
+
+.footer footer .social-icons a {
+  text-decoration: none;
+}
+
+.footer footer .footer-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 20px;
+  color: #333; /* Cambia el color del texto según tus necesidades */
+}
+
+.boton {
+  position: relative;
+  top: -60px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 295px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+.boton .btn {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  width: 280px;
+  height: 90px;
+  color:black; /* Color del texto */
+  background-color:beige; /* Color de fondo del botón */
+  border-radius: 10px; /* Ajusta este valor para redondear las esquinas */
+  text-decoration: none; /* Quitar la línea de abajo del texto */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.boton .btn:hover{
+  transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
