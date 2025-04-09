@@ -1,0 +1,616 @@
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+h4{
+    font-size: 20px;
+}
+
+.container .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: burlywood;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
+.container .header h1 {
+    flex: 1;
+    font-size: 55px;
+    text-align: center;
+    color: black;
+    font-family: Arial;
+}
+    
+.container .header img {
+    height: 170px; /* Ajusta la altura de la imagen a 170px. */
+    width: 170px; /* Ajusta el ancho de la imagen a 170px. Mantiene la proporción si la imagen original es cuadrada. */
+}
+  
+.container .header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+  
+.container .header ul li {
+    display: inline-block;
+    padding: 0px 10px;
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+  
+.container .header a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial;
+}
+  
+.container .header ul li:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+  
+.container .header a:hover {
+    color: red;
+}
+
+.productos {
+    position: relative;
+    padding-top: 100px; /* Añade un poco de espacio arriba para evitar solapamiento */
+}
+
+.productos .pan1 {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: -40px; /* Ajusta este valor según sea necesario */
+    width: 15%;
+}
+  
+.productos .enro {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 130px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 50px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .empa {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 130px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 400px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .cachi {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 130px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 750px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .gusa {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 130px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 1100px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .gusa:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .empa:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .enro:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .cachi:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.productos .pn1{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 280px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 70px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .pn2{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 280px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 420px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .pn3{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 280px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 770px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .pn4{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 280px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 1120px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_enro{
+  font-size: 20px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 65px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 200px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_empa{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 65px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 550px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_cachi{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 65px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 900px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_gusa{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 65px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 1250px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.l1 {
+    height: 10px;
+    background-color: burlywood;
+    position: absolute; /* Esto permite posicionar el elemento de forma absoluta */
+    top: 360px; /* Cambia este valor según la posición vertical deseada */
+    width: 100%; /* Ancho del elemento */
+}
+
+.productos .pan2 {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 350px; /* Ajusta este valor según sea necesario */
+    width: 17%;
+}
+  
+.productos .cho {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 530px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 50px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .fre {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 530px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 400px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .lim {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 530px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 750px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .vai {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 530px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 1100px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .lim:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .cho:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .vai:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .fre:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.productos .pas1{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 680px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 70px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .pas2{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 680px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 420px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .pas3{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 680px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 770px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .pas4{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 680px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 1120px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_cho{
+  font-size: 20px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 480px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 200px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_fre{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 480px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 550px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_lim{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 480px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 900px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_vai{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 480px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 1250px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.l2 {
+    height: 10px;
+    background-color: burlywood;
+    position: absolute; /* Esto permite posicionar el elemento de forma absoluta */
+    top: 770px; /* Cambia este valor según la posición vertical deseada */
+    width: 100%; /* Ancho del elemento */
+}
+
+.productos .pan3 {
+    font-size: 50px;
+    text-align: center;
+    position: absolute;
+    top: 770px; /* Ajusta este valor según sea necesario */
+    width: 17%;
+}
+  
+.productos .g1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 950px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 50px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+
+}
+
+.productos .g2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 950px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 400px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .g3 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 950px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 750px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .g4 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50px;
+    position: absolute;
+    top: 950px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 1100px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave para el agrandamiento */
+}
+
+.productos .g1:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .g2:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .g3:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+.productos .g4:hover{
+    transform: scale(1.2); /* Agranda la imagen un 20% al pasar el cursor */
+}
+
+.productos .ga1{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 1100px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 70px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ga2{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 1100px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 420px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ga3{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 1100px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 770px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ga4{
+    color: red;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 1100px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 1120px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_g1{
+  font-size: 20px;
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  top: 900px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+  left: 200px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_g2{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 900px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 550px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_g3{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 900px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 900px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .ing_g4{
+    font-size: 20px;
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    top: 900px; /* Ajusta este valor según sea necesario para mover la imagen más arriba */
+    left: 1250px; /* Ajusta este valor según sea necesario para mover la imagen horizontalmente */
+}
+
+.productos .p_1{
+    text-align: center;
+    position: absolute;
+    top: 70px; /* Ajusta este valor según sea necesario */
+    width: 17%;
+}
+.productos .p_2{
+    text-align: center;
+    position: absolute;
+    top: 70px; /* Ajusta este valor según sea necesario */
+    width: 63%;
+}
+.productos .p_3{
+    text-align: center;
+    position: absolute;
+    top: 70px; /* Ajusta este valor según sea necesario */
+    width: 110%;
+}
+.productos .p_4{
+    text-align: center;
+    position: absolute;
+    top: 70px; /* Ajusta este valor según sea necesario */
+    width: 156%;
+}
+
+.productos .pas_1{
+    text-align: center;
+    position: absolute;
+    top: 470px; /* Ajusta este valor según sea necesario */
+    width: 17%;
+}
+.productos .pas_2{
+    text-align: center;
+    position: absolute;
+    top: 470px; /* Ajusta este valor según sea necesario */
+    width: 63%;
+}
+.productos .pas_3{
+    text-align: center;
+    position: absolute;
+    top: 470px; /* Ajusta este valor según sea necesario */
+    width: 110%;
+}
+.productos .pas_4{
+    text-align: center;
+    position: absolute;
+    top: 470px; /* Ajusta este valor según sea necesario */
+    width: 156%;
+}
+
+.productos .g_1{
+    text-align: center;
+    position: absolute;
+    top: 880px; /* Ajusta este valor según sea necesario */
+    width: 17%;
+}
+.productos .g_2{
+    text-align: center;
+    position: absolute;
+    top: 880px; /* Ajusta este valor según sea necesario */
+    width: 63%;
+}
+.productos .g_3{
+    text-align: center;
+    position: absolute;
+    top: 880px; /* Ajusta este valor según sea necesario */
+    width: 110%;
+}
+.productos .g_4{
+    text-align: center;
+    position: absolute;
+    top: 880px; /* Ajusta este valor según sea necesario */
+    width: 156%;
+}
+
+.footer1 footer {
+    position: absolute;
+    text-align: left;
+    padding: 5px 5px;
+    background-color: burlywood;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between; /* Distribuir espacio entre texto e iconos */
+    align-items: center; /* Alinear verticalmente los elementos */
+    width: 1495px;
+    height: 60px;
+    top: 1410px;
+}
+  
+.footer1 footer .social-icons1 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+  
+.footer1 footer .social-icons1 li {
+    margin: 0 10px;
+}
+  
+.footer1 footer .social-icons1 a {
+    text-decoration: none;
+}
+  
+.footer1 footer .footer-text1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 20px;
+    color: #333; /* Cambia el color del texto según tus necesidades */
+}
